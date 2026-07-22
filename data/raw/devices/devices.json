@@ -1,0 +1,92 @@
+[
+  {
+    "device_id": "m-low-1",
+    "device_class": "low-end",
+    "device_name": "Galaxy A13",
+    "viewport_width": 360,
+    "viewport_height": 800,
+    "cpu_tier": "low",
+    "memory_gb": 3,
+    "network_profile": "3G"
+  },
+  {
+    "device_id": "m-mid-1",
+    "device_class": "mid-range",
+    "device_name": "Pixel 7a",
+    "viewport_width": 393,
+    "viewport_height": 852,
+    "cpu_tier": "mid",
+    "memory_gb": 6,
+    "network_profile": "4G"
+  },
+  {
+    "device_id": "m-high-1",
+    "device_class": "high-end",
+    "device_name": "iPhone 15 Pro",
+    "viewport_width": 393,
+    "viewport_height": 852,
+    "cpu_tier": "high",
+    "memory_gb": 8,
+    "network_profile": "5G"
+  },
+  {
+    "device_id": "d-low-1",
+    "device_class": "low-end",
+    "device_name": "Dell Inspiron 15 (2019)",
+    "viewport_width": 1366,
+    "viewport_height": 768,
+    "cpu_tier": "low",
+    "memory_gb": 4,
+    "network_profile": "wifi"
+  },
+  {
+    "device_id": "d-mid-1",
+    "device_class": "mid-range",
+    "device_name": "Dell XPS 13",
+    "viewport_width": 1920,
+    "viewport_height": 1080,
+    "cpu_tier": "mid",
+    "memory_gb": 16,
+    "network_profile": "wifi"
+  },
+  {
+    "device_id": "d-high-1",
+    "device_class": "high-end",
+    "device_name": "MacBook Pro 14 (M2 Pro)",
+    "viewport_width": 1920,
+    "viewport_height": 1080,
+    "cpu_tier": "high",
+    "memory_gb": 32,
+    "network_profile": "wifi"
+  },
+  {
+    "device_id": "t-low-1",
+    "device_class": "low-end",
+    "device_name": "Amazon Fire HD 10",
+    "viewport_width": 800,
+    "viewport_height": 1280,
+    "cpu_tier": "low",
+    "memory_gb": 3,
+    "network_profile": "wifi"
+  },
+  {
+    "device_id": "t-mid-1",
+    "device_class": "mid-range",
+    "device_name": "iPad (10th gen)",
+    "viewport_width": 820,
+    "viewport_height": 1180,
+    "cpu_tier": "mid",
+    "memory_gb": 4,
+    "network_profile": "wifi"
+  },
+  {
+    "device_id": "t-high-1",
+    "device_class": "high-end",
+    "device_name": "iPad Pro 12.9 (M2)",
+    "viewport_width": 1024,
+    "viewport_height": 1366,
+    "cpu_tier": "high",
+    "memory_gb": 8,
+    "network_profile": "5G"
+  }
+]

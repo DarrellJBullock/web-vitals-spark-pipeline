@@ -1,0 +1,18 @@
+# Optional: run the pipeline in a container that already has a JVM + PySpark,
+# useful if the host machine doesn't have Java installed.
+#
+#   docker compose run --rm pipeline make run
+#   docker compose run --rm pipeline make test
+#
+version: "3.9"
+
+services:
+  pipeline:
+    build: .
+    working_dir: /app
+    volumes:
+      - .:/app
+    environment:
+      - DATA_ROOT=/app
+      - PYTHONUNBUFFERED=1
+    command: ["make", "run"]

@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+data/processed/
+data/curated/
+reports/*.csv
+reports/*.md
+!reports/.gitkeep
+spark-warehouse/
+derby.log
+metastore_db/
+.env
+.DS_Store
+*.egg-info/
