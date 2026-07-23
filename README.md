@@ -180,30 +180,12 @@ risk-level classification, and every data quality check
 
 ## Sample output
 
-### `reports/web_vitals_summary.md` (excerpt)
+![Excerpt of reports/web_vitals_summary.md, showing biggest improvements, biggest regressions, and mobile vs. desktop vs. tablet findings](docs/screenshots/web_vitals_summary_report.png)
 
-```markdown
-## Biggest Regressions
-
-| Route | Device | Metric | Release | Severity | Baseline | Current | Delta % |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| /checkout | mobile | CLS | v2.4.0 | critical | 0.0651 | 0.1808 | 177.73% |
-| /account | tablet | TTFB | v2.4.0 | critical | 510.0 | 965.0 | 89.22% |
-| /search | mobile | INP | v2.5.0 | critical | 259.0 | 417.0 | 61.0% |
-
-## Mobile vs. Desktop vs. Tablet Findings
-
-| Device Type | Avg Health Score | Avg p75 LCP (ms) | % Good LCP |
-| --- | --- | --- | --- |
-| desktop | 66.6 | 1782.0 | 98.3% |
-| tablet | 66.4 | 2095.0 | 92.7% |
-| mobile | 63.2 | 2988.0 | 49.2% |
-```
-
-The full report (best/worst routes, biggest improvements, recommended
-actions) is generated fresh every run at `reports/web_vitals_summary.md`.
-Screenshots of the CSV outputs opened in a spreadsheet/BI tool go here for
-a portfolio site: `docs/screenshots/` (add your own after running the demo).
+_Excerpt of `reports/web_vitals_summary.md` from an actual run against the
+seeded sample data -- biggest improvements, biggest regressions, and the
+mobile/desktop/tablet health gap. The full report (best/worst routes,
+overall health summary, recommended actions) is regenerated fresh every run._
 
 ## Sample data & the regression story
 
