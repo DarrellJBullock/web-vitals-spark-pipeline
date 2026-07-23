@@ -3,6 +3,11 @@
 **web-vitals-spark-pipeline** -- a production-style PySpark data engineering
 pipeline that analyzes frontend performance at scale.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/DarrellJBullock/web-vitals-spark-pipeline)
+
+No local setup: click the badge above for a ready-to-go cloud dev environment
+(Python + Java preinstalled) and run `source .venv/bin/activate && make seed && make run && make test`.
+
 ## Portfolio angle
 
 Built a PySpark pipeline to analyze frontend performance at scale: ingesting
@@ -125,6 +130,12 @@ whether a route's mobile problem is really a *low-end-device-on-3G* problem.
 
 ## How to run locally
 
+Prefer not to install anything? Open this repo in
+[GitHub Codespaces](https://codespaces.new/DarrellJBullock/web-vitals-spark-pipeline)
+-- `.devcontainer/devcontainer.json` preinstalls Python 3.11 + Java 17 and runs
+`pip install -r requirements.txt` for you, so once it's ready you can jump
+straight to `source .venv/bin/activate && make seed && make run`.
+
 Requires Python 3.11+ and a JVM (PySpark needs Java 8/11/17). If you don't
 have Java installed:
 
@@ -238,6 +249,7 @@ web-vitals-spark-pipeline/
   README.md
   requirements.txt
   Makefile
+  .devcontainer/devcontainer.json   # GitHub Codespaces: Python 3.11 + Java 17 preinstalled
   docker-compose.yml / Dockerfile
   data/{raw,processed,curated}/
   reports/
