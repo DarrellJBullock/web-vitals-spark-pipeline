@@ -40,6 +40,12 @@ Spark SQL operation (window functions, `groupBy` aggregations,
 `percentile_approx`, joins). There is no pandas anywhere in the pipeline
 itself -- pandas only shows up, optionally, inside the exploratory notebook.
 
+## Docs
+
+- [`docs/architecture.md`](docs/architecture.md) -- full data-flow diagram and design decisions
+- [`docs/data_model.md`](docs/data_model.md) -- column-by-column schema for every raw and curated table
+- [`docs/demo_script.md`](docs/demo_script.md) -- step-by-step walkthrough for showing this project live
+
 ## Architecture
 
 See [`docs/architecture.md`](docs/architecture.md) for the full diagram and
@@ -177,6 +183,9 @@ classification, before/after status classification, health-score math,
 risk-level classification, and every data quality check
 (`test_lighthouse_transforms.py`, `test_regression_detection.py`,
 `test_vitals_transforms.py`, `test_data_quality_checks.py`).
+
+Want to show this off live (interview, portfolio review)? See
+[`docs/demo_script.md`](docs/demo_script.md) for a step-by-step walkthrough.
 
 ## Sample output
 
