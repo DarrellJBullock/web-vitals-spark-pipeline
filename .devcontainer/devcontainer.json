@@ -6,6 +6,9 @@
       "version": "17",
       "installMaven": false,
       "installGradle": false
+    },
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
     }
   },
   "postCreateCommand": "python -m venv .venv && .venv/bin/pip install --upgrade pip && .venv/bin/pip install -r requirements.txt",
